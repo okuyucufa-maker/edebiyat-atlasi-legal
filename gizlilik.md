@@ -1,4 +1,4 @@
-# Gizlilik Politikası
+# Gizlilik politikası
 
 **Edebiyat Atlası**
 
