@@ -2,7 +2,7 @@
 
 **Edebiyat Atlası**
 
-Son güncelleme: 30 Temmuz 2026
+Son güncelleme: 9 Ağustos 2026
 
 ---
 
@@ -24,12 +24,33 @@ başvuru listesi bulunur.
 Uygulama **hiçbir kurumun resmî yayını değildir**; ÖSYM, MEB ya da başka bir resmî
 kurumla bağlantısı, ortaklığı veya onayı yoktur.
 
-## 3. Ücret
+## 3. Ücret ve abonelik
 
-Uygulama şu anda **tamamen ücretsizdir**. Uygulama içi satın alma ve abonelik
-bulunmamaktadır. İleride ücretli özellikler eklenirse bu şartlar güncellenir ve
-ücretli hale gelen özellikler kullanımdan önce açıkça belirtilir; mevcut ücretsiz
-içerik geriye dönük olarak ücretli hale getirilmez.
+Uygulamanın temel içeriği ve bazı özellikleri **ücretsizdir** ve ücretsiz kalmaya
+devam edecektir.
+
+Bunun yanında isteğe bağlı, App Store üzerinden satın alınan otomatik yenilenen
+bir abonelik olan **Edebiyat Atlası Pro** bulunmaktadır. Pro abonelik, ücretsiz
+sürümdeki günlük kullanım sınırlarını kaldırır ve bazı test/içerik türlerinin
+tamamına erişim sağlar. Hangi özelliklerin ücretsiz, hangilerinin Pro
+gerektirdiği uygulama içinde ilgili ekranlarda açıkça belirtilir ve zaman
+içinde değişebilir; mevcut ücretsiz içerik geriye dönük olarak ücretli hale
+getirilmez.
+
+Abonelikle ilgili koşullar:
+
+- Güncel fiyat ve varsa ücretsiz deneme süresi, satın alma ekranında App Store
+  tarafından gösterilir.
+- Abonelik, iptal edilmediği sürece dönem sonunda **otomatik olarak yenilenir**
+  ve ücret Apple Kimliğinize (Apple ID) bağlı ödeme yönteminden tahsil edilir.
+- Ücretsiz deneme süresi sunuluyorsa, deneme bitmeden en az 24 saat önce iptal
+  edilmezse ücretli döneme otomatik geçilir.
+- Aboneliği istediğiniz zaman cihazınızda **Ayarlar → [Adınız] → Abonelikler**
+  yolundan iptal edebilirsiniz; uygulama içinden abonelik iptal edilemez.
+- Satın alma işlemi Apple tarafından yürütülür; kart numarası gibi ödeme
+  bilgileriniz uygulamaya veya işletmeciye hiçbir zaman ulaşmaz.
+- İadeler Apple'ın App Store iade politikasına tabidir; iade talepleri
+  doğrudan Apple'a yapılır, işletmeci iade sürecine müdahale edemez.
 
 ## 4. Hesap
 
