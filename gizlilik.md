@@ -1,8 +1,8 @@
-# Gizlilik politikası
+# Gizlilik Politikası
 
 **Edebiyat Atlası**
 
-Son güncelleme: 30 Temmuz 2026
+Son güncelleme: 9 Ağustos 2026
 
 ---
 
@@ -43,20 +43,44 @@ gerçekleştirir.
 Bu kayıtlar ilerlemenizi hesaplamak ve size henüz bilmediğiniz soruları öncelikli
 göstermek için tutulur.
 
+### c) Abonelik ve satın alma bilgileri
+
+Uygulama içinde isteğe bağlı, otomatik yenilenen bir abonelik olan **Edebiyat
+Atlası Pro** sunulmaktadır. Satın alma işlemi App Store üzerinden tamamen Apple
+tarafından yürütülür; kart numarası gibi ödeme bilgileriniz bize hiçbir zaman
+ulaşmaz.
+
+Satın alma ve abonelik durumunuzu doğrulamak için **RevenueCat Inc.** hizmetini
+kullanıyoruz. RevenueCat'e iletilen bilgiler: uygulama içi anonim kullanıcı
+kimliğiniz ve abonelik durumunuz (aktif/pasif, deneme süresinde olup olmadığı,
+satın alınan ürün). Bu bilgi reklam amacıyla kullanılmaz veya paylaşılmaz.
+
+### d) Hata ve çökme bilgileri
+
+Uygulama beklenmedik şekilde kapanır ya da hata verirse, sorunu teşhis edip
+düzeltebilmemiz için **Sentry** (Functional Software, Inc.) aracılığıyla teknik
+hata kaydı toplanır: hata mesajı ve hangi ekranda/işlemde oluştuğu, cihaz modeli
+ve işletim sistemi sürümü, uygulama sürümü. Bu bilgi reklam ya da davranışsal
+takip amacıyla kullanılmaz, kişiselleştirilmiş profil çıkarmak için
+kullanılmaz.
+
 ## 3. Hangi verileri İŞLEMİYORUZ?
 
 Bunları açıkça belirtmek istiyoruz:
 
 - **Reklam yok, reklam kimliği kullanılmıyor.**
-- **Analitik veya kullanıcı izleme aracı yok.** Uygulamada hiçbir analitik,
-  reklam veya izleme yazılımı bulunmuyor.
-- **Çökme raporlama aracı yok.**
+- **Reklam amaçlı analitik veya kullanıcı davranışı izleme aracı yok.**
+  Uygulamada kullanıcıları reklam ya da pazarlama amacıyla izleyen hiçbir
+  yazılım bulunmuyor (hata/çökme teşhisi için kullanılan Sentry hariç — bkz.
+  2.d ve 6. bölüm; bu araç davranışsal profil çıkarmaz).
 - **Konumunuza erişilmiyor.**
 - **Rehberinize, fotoğraflarınıza, kameranıza ve mikrofonunuza erişilmiyor.**
 - **Bildirim gönderilmiyor.**
 - **Verileriniz hiç kimseye satılmıyor, kiralanmıyor, reklam amacıyla
   paylaşılmıyor.**
 - **Cihaz kimliğiniz, IMEI, MAC adresi gibi donanım bilgileri toplanmıyor.**
+- **Kart numaranız veya başka bir ödeme bilginiz bize hiçbir zaman ulaşmaz.**
+  Satın alma tamamen Apple tarafından yürütülür.
 
 ## 4. Cihazınızda saklananlar
 
@@ -75,6 +99,8 @@ Uygulamayı telefonunuzdan silerseniz bu veriler de silinir.
 | Hesabınızı oluşturmak ve girişinizi sağlamak | Sözleşmenin kurulması ve ifası |
 | İlerlemenizi, XP ve serinizi hesaplayıp göstermek | Sözleşmenin ifası |
 | Size henüz bilmediğiniz soruları öncelikli göstermek | Sözleşmenin ifası |
+| Pro abonelik satın almanızı ve doğrulamanızı sağlamak | Sözleşmenin ifası |
+| Uygulama hatalarını teşhis edip düzeltmek | Meşru menfaat |
 | Hesabınızı silme talebinizi yerine getirmek | Hukuki yükümlülük / açık talebiniz |
 
 Verileriniz bu amaçların dışında kullanılmaz. Profilleme yoluyla hakkınızda
@@ -82,12 +108,19 @@ otomatik bir karar alınmaz.
 
 ## 6. Verilerin saklandığı yer ve üçüncü taraflar
 
-Verileriniz iki hizmet sağlayıcı üzerinden işlenir:
+Verileriniz aşağıdaki hizmet sağlayıcılar üzerinden işlenir:
 
 - **Google LLC (ABD)** — yalnızca giriş işlemi için. Google, uygulamaya giriş
   yaptığınızı görür; uygulama içindeki çalışmanızı görmez.
 - **Supabase Inc.** — hesabınız ve ilerleme kayıtlarınız Supabase'in yönettiği
   veritabanında barındırılır. Supabase, bizim adımıza veri işleyen taraftır.
+- **RevenueCat Inc. (ABD)** — Pro abonelik satın alma ve doğrulama işlemleri
+  için. Uygulama içi anonim kullanıcı kimliğiniz ve abonelik durumunuz
+  RevenueCat'e iletilir.
+- **Apple Inc. (ABD)** — App Store üzerinden satın alma işlemini yürütür;
+  ödeme bilgileriniz doğrudan Apple tarafından işlenir, işletmeciye ulaşmaz.
+- **Sentry / Functional Software, Inc. (ABD)** — uygulama hatalarını teşhis
+  etmek için teknik hata kayıtları bu servise iletilir.
 
 Bunların dışında hiçbir üçüncü tarafa veri aktarılmaz.
 
@@ -97,12 +130,15 @@ Hesabınız ve ilerleme kayıtlarınız Supabase'in **Sidney (Avustralya)**
 bölgesindeki sunucularında (`ap-southeast-2`) barındırılmaktadır. Bu, kişisel
 verilerinizin **Türkiye dışına aktarıldığı** anlamına gelir. Google girişi
 nedeniyle e-posta ve ad bilginiz ayrıca Google LLC (ABD) tarafından da işlenir.
+Pro abonelik satın alırsanız, yukarıda belirtilen abonelik ve hata teşhis
+bilgileriniz benzer şekilde RevenueCat Inc., Apple Inc. ve Sentry (Functional
+Software, Inc.) tarafından ABD'de işlenir.
 
 KVKK m.9 uyarınca kişisel verilerin yurt dışına aktarılması, Kişisel Verileri
 Koruma Kurulu'nun yeterlilik kararı bulunan ülkelere ya da uygun güvencelerin
-sağlanması hâlinde mümkündür. **Avustralya hakkında verilmiş bir yeterlilik kararı
-bulunmamaktadır.** Aktarım, uygulamayı kullanmaya başlarken bu politikayı kabul
-ederek verdiğiniz açık rızaya dayanılarak gerçekleştirilir.
+sağlanması hâlinde mümkündür. **Avustralya ve ABD hakkında verilmiş bir
+yeterlilik kararı bulunmamaktadır.** Aktarım, uygulamayı kullanmaya başlarken
+bu politikayı kabul ederek verdiğiniz açık rızaya dayanılarak gerçekleştirilir.
 
 Verilerinizin yurt dışına aktarılmasını istemiyorsanız uygulamayı kullanmamanız,
 hesabınız varsa silmeniz gerekir. Rızanızı her zaman geri alabilirsiniz; bunun
@@ -116,6 +152,10 @@ Verileriniz hesabınız var olduğu sürece saklanır.
 hesap simgesi → **Hesabı Sil**. Onayladığınızda hesabınız ve ona bağlı **bütün**
 veri (profil, test kayıtları, soru sonuçları, flashcard ilerlemesi) veritabanından
 kalıcı olarak silinir. Bu işlem geri alınamaz ve silinen verinin yedeği tutulmaz.
+
+Hesap silme, App Store üzerinden verdiğiniz aboneliği otomatik olarak iptal
+etmez; aboneliğinizi ayrıca cihazınızdan (Ayarlar → Abonelikler) iptal etmeniz
+gerekir.
 
 Silme talebinizi okuyucufa@gmail.com adresine yazarak da iletebilirsiniz.
 
