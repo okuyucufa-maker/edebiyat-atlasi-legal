@@ -22,6 +22,9 @@ Hesabınızı sildiğinizde aşağıdaki veriler kalıcı olarak silinir ve **hi
 
 Bu işlem **geri alınamaz**.
 
+## Önemli: Abonelik Ayrıca İptal Edilmelidir
+
+Hesabınızı silmek, App Store veya Google Play üzerinden satın aldığınız aboneliği **otomatik olarak iptal etmez**. Abonelikler Apple/Google tarafından yönetilir; ücretlendirilmeye devam etmemek için hesabınızı silmeden **önce** aboneliğinizi kendi cihazınızın Ayarlar bölümünden (iPhone: Ayarlar > [Adınız] > Abonelikler; Android: Play Store > Abonelikler) iptal etmeniz gerekir.
 ## Sorularınız için
 
 okuyucufa@gmail.com
